@@ -109,9 +109,9 @@ td,
 th {
   border: 1px solid var(--secondary-color);
   border-collapse: collapse;
-  width: 500px;
+  max-width: 500px;
   height: 25px;
-  margin: 10px 0;
+  margin: 10px 5px;
 }
 
 th,
@@ -123,10 +123,6 @@ th {
   background-color: var(--secondary-color);
   color: black;
 }
-
-/* #contact-form{
-  ...
-} */
 
 #logo {
   width: 200px;
@@ -291,6 +287,11 @@ th {
   .grid {
     grid-template-columns: 1fr;
   }
+
+  .profile__portrait {
+    width: 80px;
+    margin: 0 20px;
+  }
 }
 
 @media all and (min-width: 500px) and (max-width: 750px) {
@@ -301,8 +302,14 @@ th {
   .page-header__item:first-child {
     max-width: 150px;
   }
+
   .grid {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .profile__portrait {
+    width: 150px;
+    margin: 0 20px;
   }
 }
 

@@ -120,25 +120,25 @@ button:focus,
 table {
   border: #d1ded8;
   border-collapse: collapse;
-  width: 500px;
+  max-width: 500px;
   height: 25px;
-  margin: 10px 0;
+  margin: 10px 5px;
 }
 
 td {
   border: #d1ded8;
   border-collapse: collapse;
-  width: 500px;
+  max-width: 500px;
   height: 25px;
-  margin: 10px 0;
+  margin: 10px 5px;
 }
 
 th {
   border: #d1ded8;
   border-collapse: collapse;
-  width: 500px;
+  max-width: 500px;
   height: 25px;
-  margin: 10px 0;
+  margin: 10px 5px;
 }
 
 th,
