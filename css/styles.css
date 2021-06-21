@@ -267,13 +267,16 @@ th {
   text-align: center;
 }
 
-/* #contact-form {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  justify-content: center;
-  margin: ;
-} */
+#contact-form {
+  display: grid;
+  position: relative;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.standard-label {
+  margin: 5px;
+}
 
 /*MEDIA QUERIES*/
 
