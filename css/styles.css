@@ -284,13 +284,20 @@ th {
   .page-header__item:first-child {
     max-width: 100px;
   }
-  .grid {
-    grid-template-columns: 1fr;
-  }
 
   .profile__portrait {
-    width: 80px;
-    margin: 0 20px;
+    float: none;
+    max-width: 180px;
+    margin: 0;
+  }
+  .profile {
+    text-align: center;
+    flex-direction: column;
+    padding-bottom: 0;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
   }
 }
 
@@ -308,8 +315,14 @@ th {
   }
 
   .profile__portrait {
-    width: 150px;
+    float: none;
+    width: 180px;
     margin: 0 20px;
+  }
+  .profile {
+    text-align: center;
+    flex-direction: column;
+    padding-bottom: 0;
   }
 }
 
