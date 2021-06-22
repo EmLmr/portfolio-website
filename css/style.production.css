@@ -11,20 +11,6 @@ body {
   margin-bottom: 100px;
 }
 
-/* header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  padding: 0 10px;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  margin-bottom: 20px;
-} */
-
 h1,
 h2,
 h3 {
@@ -165,7 +151,7 @@ th {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   padding: 0 10px;
 }
 
