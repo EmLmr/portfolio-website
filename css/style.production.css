@@ -147,12 +147,11 @@ th {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 10px;
+  padding: 0 10px;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
   margin-bottom: 50px;
-  padding: 0 10px;
 }
 
 .page-header__item {
@@ -211,7 +210,7 @@ th {
   text-decoration: none;
 }
 
-/*HOME page*/
+/* HOME page */
 .profile {
   max-width: 700px;
   margin: 0 auto;
@@ -224,7 +223,7 @@ th {
   border-radius: 50%;
 }
 
-/*WORK page*/
+/* WORK page */
 .grid {
   display: -ms-grid;
   display: grid;
@@ -239,7 +238,7 @@ th {
   padding: 10px;
 }
 
-/*ABOUT page*/
+/* ABOUT page */
 .about {
   text-align: center;
   -webkit-box-orient: vertical;
@@ -259,7 +258,7 @@ th {
   margin: 15px;
 }
 
-/*CONTACT page*/
+/* CONTACT page */
 .contact {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -290,9 +289,11 @@ th {
   0% {
     fill: #edc655;
   }
+
   50% {
     fill: #fcffad;
   }
+
   100% {
     fill: #f76414;
   }
@@ -302,9 +303,11 @@ th {
   0% {
     fill: #edc655;
   }
+
   50% {
     fill: #fcffad;
   }
+
   100% {
     fill: #f76414;
   }
@@ -320,6 +323,7 @@ th {
     -webkit-transform: translate(0, 50px);
     transform: translate(0, 50px);
   }
+
   to {
     -webkit-transform: translate(200px, 50px);
     transform: translate(200px, 50px);
@@ -331,6 +335,7 @@ th {
     -webkit-transform: translate(0, 50px);
     transform: translate(0, 50px);
   }
+
   to {
     -webkit-transform: translate(200px, 50px);
     transform: translate(200px, 50px);
@@ -347,6 +352,7 @@ th {
     -webkit-transform: translate(446px, 48px);
     transform: translate(446px, 48px);
   }
+
   to {
     -webkit-transform: translate(100px, 48px);
     transform: translate(100px, 48px);
@@ -358,6 +364,7 @@ th {
     -webkit-transform: translate(446px, 48px);
     transform: translate(446px, 48px);
   }
+
   to {
     -webkit-transform: translate(100px, 48px);
     transform: translate(100px, 48px);
@@ -369,7 +376,7 @@ th {
   animation: 34s cloud-move-reverse infinite alternate linear;
 }
 
-/*CONTACT page*/
+/* CONTACT page */
 .contact {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -384,8 +391,7 @@ th {
   text-align: center;
 }
 
-/*MEDIA QUERIES*/
-
+/* MEDIA QUERIES */
 @media all and (max-width: 565px) {
   header {
     margin-bottom: 0;
@@ -415,6 +421,7 @@ th {
     max-width: 180px;
     margin: 0;
   }
+
   .profile {
     text-align: center;
     -webkit-box-orient: vertical;
@@ -449,6 +456,7 @@ th {
     width: 180px;
     margin: 0 20px;
   }
+
   .profile {
     text-align: center;
     -webkit-box-orient: vertical;
@@ -463,6 +471,7 @@ th {
   .grid {
     grid-gap: 10px;
   }
+
   .grid__item:last-child {
     grid-column: auto/auto;
     grid-row: auto/auto;
