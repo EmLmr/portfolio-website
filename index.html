@@ -182,31 +182,33 @@
               <div class="col-md-8 mx-auto">
                 <div class="contact-form">
                   <h1 id="contact">CONTACT ME</h1>
-                    <p class="hint-text text-white">Want to get in touch?</p>
+                    
                   <form  method="post" action=”mailto:emeline.coding@gmail.com” name=”EmailForm”>
                     <div class="row">
-                      <div class="col-sm-6 form-group">
-                        <label class="standard-label" for="inputName">Full name/Company name:</label>
-                        <input type="text" class="form-control" id="inputLastName" required>
+                      <div class="col-sm-6">
+                        <div class="form-group">
+                          <label class="standard-label" for="inputName">Full name/Company name:</label>
+                          <input type="text" class="form-control" id="inputLastName" required>
+                        </div>
+                        <div class="form-group">
+                          <label class="standard-label" for="inputEmail">Email address:</label>
+                          <input type="email" class="form-control" id="inputEmail" required>
+                        </div>
+                        <div class="form-group">
+                          <label class="standard-label" for="inputPhone">Telephone (optional):</label>
+                          <input type="phone" 
+                          class="form-control" id="inputPhone" />
+                        </div>
                       </div>
-                      
-                      <div class="col-sm-6 form-group">
-                        <label class="standard-label" for="inputEmail">Email address:</label>
-                        <input type="email" class="form-control" id="inputEmail" required>
-                      </div>
-
-                      <div class="col-sm-6 form-group">
-                        <label class="standard-label" for="inputPhone">Telephone (optional):</label>
-                        <input type="phone" 
-                        class="form-control" id="inputPhone" />
-                      </div>
-                      
+                 
                       <div class="col-sm-6 form-group">
                         <label class="standard-label" for="inputMessage">Message:</label>
                         <textarea class="form-control" id="inputMessage" rows="5" required></textarea>
                       </div>
-
-                      <input type="submit" class="btn" value="Submit">
+                      <div class="text-center">
+                        <input type="submit" class="form-btn btn btn-light" value="Submit">
+                      </div>
+                      
                   </form>
                 </div>
               </div>

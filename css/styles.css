@@ -29,6 +29,7 @@ h3 {
 
 h1 {
     font-weight: 700;
+    color: var(--primary-color);
 }
 
 h2,
@@ -316,6 +317,11 @@ th {
 
 .standard-label {
     margin: 5px;
+}
+
+.form-btn {
+    max-width: 200px;
+    margin: 1rem;
 }
 
 /* MEDIA QUERIES */
