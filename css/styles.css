@@ -127,6 +127,10 @@ th {
     color: black;
 }
 
+.navbar {
+    padding: 0 3rem;
+}
+
 #logo {
     width: 200px;
 }
