@@ -226,6 +226,14 @@ th {
     max-width: 100%;
 }
 
+.gh-btn {
+    max-width: 25px;
+}
+
+.btn-light {
+    background-color: var(--secondary-color);
+}
+
 /* ABOUT page */
 .about {
     text-align: center;
