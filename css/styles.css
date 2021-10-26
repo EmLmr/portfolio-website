@@ -218,6 +218,10 @@ th {
     padding: 10px;
 }
 
+.project-item {
+    padding: 2rem;
+}
+
 .project-img {
     max-width: 100%;
 }
