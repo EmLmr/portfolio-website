@@ -186,15 +186,22 @@ th {
 }
 
 /* HOME page */
+#about {
+    justify-content: center;
+}
+
+.txt-container {
+    margin-bottom: 14.74px;
+}
+
 .profile {
     max-width: 700px;
     margin: 0 auto;
 }
 
 .profile__portrait {
-    float: left;
-    width: 250px;
-    margin-right: 40px;
+    width: 200px;
+    margin: 40px;
     border-radius: 50%;
 }
 
@@ -319,9 +326,8 @@ th {
     }
 
     .profile__portrait {
-        float: none;
-        max-width: 180px;
-        margin: 0;
+        max-width: 150px;
+        margin: 20px;
     }
 
     .profile {
@@ -349,9 +355,8 @@ th {
     }
 
     .profile__portrait {
-        float: none;
-        width: 180px;
-        margin: 0 20px;
+        width: 150px;
+        margin: 20px;
     }
 
     .profile {
