@@ -199,7 +199,7 @@ th {
 
 .profile__portrait {
     width: 200px;
-    margin: 40px;
+    margin: 10px;
     border-radius: 50%;
 }
 
@@ -412,5 +412,9 @@ th {
 
     h1 {
         font-size: 22px;
+    }
+
+    h2 {
+        font-size: 18px;
     }
 }
