@@ -128,7 +128,7 @@ a:active {
 /*  ---FOOTER--- */
 #footer {
     text-align: center;
-    width: 100%;
+    width: 103%;
     position: fixed;
     bottom: 0;
     background-color: var(--primary-color);
