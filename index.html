@@ -25,50 +25,39 @@
 
     <body>
         <!-- Nav -->
-        <nav class="navbar navbar-expand-lg navbar-light sticky-top">
-            <a class="col navbar-brand" href="index.html"
-                ><img
-                    src="img/emeline_limier_logo.png"
-                    alt="Personal logo of Emeline Limier. It is a text logo in uppercase letters that consists of her name."
-                    id="logo"
-                    class="d-inline-block"
-            /></a>
-            <button
-                class="navbar-toggler ms-auto"
-                type="button"
-                data-mdb-toggle="collapse"
-                data-mdb-target="#navbarNav"  
-                aria-controls="navbarNav"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-            >
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="col nav navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
+        <div class="navbar navbar-expand navbar-light sticky-top">
+          <a class="col navbar-brand" href="index.html"
+          ><img
+              src="img/logo.png"
+              alt="Personal logo of Emeline. It is a text logo in uppercase letters that consists of her name."
+              id="logo"
+          /></a>
+              <nav class="main-navigation d-inline-block">
+                  <ul class="col nav navbar-nav ml-auto">
+                      <li class="nav-item">
+                          <a class="nav-link" href="#about">About</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#work">Work</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#work">Work</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#skills">Skills</a>
-                  </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#contact">Contact</a>
+                      </li>
+                  </ul>
+              </nav>
+        </div>
+        
 
 		<!-- ABOUT -->
 		<div class="container-fluid bg-light">
 			<div class="about container py-4" id="about">
 			  <img 
-			  src="img/emeline_limier_photo.jpg"
+			  src="img/profile_photo.jpg"
 			  class="profile__portrait" 
-			  alt="A portrait photo of Emeline Limier">
+			  alt="A portrait photo of Emeline.">
 			  <h1 class="profile__title">HELLO WORLD!</h1>
 			  <p class="profile__text">
 				Business school graduate turned web developer.<br />
@@ -85,6 +74,49 @@
         <div class="portfolio container py-4">
             <h1 id="work">WORK</h1>
             <div class="row text-center">
+              <div class="project-item col-xs-12 col-md-6 col-lg-6">
+                  <h2>FlicksPicks - client-side (Angular)</h2>
+                  <img
+                      src="img/projects/fp-angular.PNG"
+                      class="project-img img-fluid p-4"
+                      alt="Screenshot of the FlicksPicks app"
+                  />
+                  <p>
+                    The client-side of the FlicksPicks REST API. Users can sign up, access information about
+                    movies, add movies to their list of favorites, and edit their user information.
+                  </p>
+                  <p>
+                    <em>Typescript, Angular, Angular Material UI</em>
+                  </p>
+                  <div class="project-btn">
+                    <a class="btn btn-light" href="https://github.com/EmLmr/FlicksPicks-Angular-client" target="_blank"
+                    >See code <img class="gh-btn" src="img/github_icon.svg" alt="The GitHub logo"
+                /></a>
+                <a class="btn btn-light" href="https://emlmr.github.io/FlicksPicks-Angular-client/welcome" target="_blank">See app</a>
+                  </div>
+              </div>
+              <div class="project-item col-xs-12 col-md-6 col-lg-6">
+                  <h2>Chat app</h2>
+                  <img
+                      src="img/projects/chat-app.png"
+                      class="project-img img-fluid p-4"
+                      alt="Screenshot of the chat app"
+                  />
+                  <p>
+                      A React Native mobile application. User can enter a chat room and exchange messages, pictures and their location.
+                  </p>
+                  <p>
+                    <em>JavaScript, React Native</em>
+                  </p>
+                  <div class="project-btn">
+                    <a class="btn btn-light" href="https://github.com/EmLmr/chat-app" target="_blank"
+                    >See code & app <img class="gh-btn" src="img/github_icon.svg" alt="The GitHub logo"
+                /></a>
+                  </div>
+              </div>
+          </div>
+
+            <div class="row text-center">
                 <div class="project-item col-xs-12 col-md-6 col-lg-6">
                     <h2>DevUps</h2>
                     <img
@@ -96,16 +128,18 @@
                         A serverless, Progressive Web Application (PWA) built using React and a Test-Driven Development
                         (TDD) technique. The application uses the Google Calendar API to fetch upcoming events.Users can view the events for all cities, or search events by city. Data visualisation is provided to the user for an overview of the events.
                     </p>
+                    <p>
+                      <em>JavaScript, React, Axios</em>
+                    </p>
                     <div class="project-btn">
                       <a class="btn btn-light" href="https://github.com/EmLmr/meet" target="_blank"
                       >See code <img class="gh-btn" src="img/github_icon.svg" alt="The GitHub logo"
                   /></a>
                   <a class="btn btn-light" href="https://emlmr.github.io/meet/" target="_blank">See app</a>
                     </div>
-                   
                 </div>
                 <div class="project-item col-xs-12 col-md-6 col-lg-6">
-                    <h2>FlicksPicks - client-side</h2>
+                    <h2>FlicksPicks - client-side (React)</h2>
                     <img
                         src="img/projects/fp-client.png"
                         class="project-img img-fluid p-4"
@@ -115,14 +149,17 @@
                         The client-side of the FlicksPicks REST API. Users can sign up, access information about
                         movies, add movies to their list of favorites, and edit their user information.
                     </p>
+                    <p>
+                      <em>JavaScript, React Redux, Bootstrap, Parcel</em>
+                    </p>
                     <div class="project-btn">
                       <a class="btn btn-light" href="https://github.com/EmLmr/FlicksPicks-client" target="_blank"
                       >See code & app <img class="gh-btn" src="img/github_icon.svg" alt="The GitHub logo"
                   /></a>
-                  <!-- <a class="btn btn-light" href="#" target="_blank">See app</a> -->
                     </div>
                 </div>
             </div>
+
             <div class="row text-center">
                 <div class="project-item col-xs-12 col-md-6 col-lg-6">
                     <h2>FlicksPicks -  server-side</h2>
@@ -135,13 +172,15 @@
                         The server-side component of the FlicksPicks web application. The app provides users with access to information about different movies, directors, and genres. Users can sign
                         up, update their information, and create a list of their favorite movies. The API has been deployed to Heroku.
                     </p>
+                    <p>
+                      <em>JavaScript, Node.js, Express, Postman, Mongoose for MongoDB</em>
+                    </p>
                     <div class="project-btn">
                       <a class="btn btn-light" href="https://github.com/EmLmr/movie_api" target="_blank"
                       >See code <img class="gh-btn" src="img/github_icon.svg" alt="The GitHub logo"
                   /></a>
                   <a class="btn btn-light" href="https://flickspicks.herokuapp.com/documentation.html" target="_blank">See documentation</a>
                     </div>
-                    
                 </div>
                 <div class="project-item col-xs-12 col-md-6 col-lg-6">
                     <h2>Pokédex</h2>
@@ -154,6 +193,9 @@
                         A small web application that uses HTML, CSS, and JavaScript. The app loads data from the external
                         <a href="https://pokeapi.co/">PokéAPI</a>. For now, the app only loads 1st generation Pokémon.Users can click on a Pokémon to view more information about it, or search for a Pokémon by name in the
                         search bar.
+                    </p>
+                    <p>
+                      <em>JavaScript, HTML, CSS</em>
                     </p>
                     <div class="project-btn">
                       <a class="btn btn-light" href="https://github.com/EmLmr/pokedex " target="_blank"
