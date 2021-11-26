@@ -136,13 +136,9 @@ a:active {
     box-shadow: 0.5px -2px 4px rgba(153, 153, 153, 0.75);
 }
 
-#footer a {
-    text-decoration: none;
-    margin-right: 1em;
-}
-
 #footer p {
-    margin-bottom: 0px;
+    color: white;
+    margin: 2px;
 }
 
 /* MEDIA QUERIES */
