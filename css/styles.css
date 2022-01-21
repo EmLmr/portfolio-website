@@ -78,7 +78,11 @@ a:active {
 /*  ---HEADER--- */
 .navbar {
     background-color: white;
-    padding: 0 3rem;
+    padding: 0 1.5rem;
+}
+
+.navbar-brand {
+    margin-right: 0.5rem;
 }
 
 /*  ---ABOUT ---*/
@@ -143,6 +147,14 @@ a:active {
 
 /* MEDIA QUERIES */
 @media all and (max-width: 565px) {
+    #logo {
+        width: 60px;
+    }
+
+    .navbar {
+        padding: 0 1rem;
+    }
+
     .profile__portrait {
         max-width: 150px;
         margin: 20px;
